@@ -120,7 +120,7 @@ notificationItems.forEach(i => {
     <p>${i.date}</p>
     <p>${i.tag}</p>
     <p>${i.notice}</p>
-    <p>${i.foot}<span class="text-primary fw-bold mx-1">${i.user}</span></p>
+    <p>${i.foot}<span class=".feeds-btn-bg fw-bold mx-1">${i.user}</span></p>
   </div>
 </div>
   
