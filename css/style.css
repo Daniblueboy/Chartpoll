@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* STYLES FOR FEEDS PAGES STARTS */
 .feeds-bg{
-    background-color: #EEEEEE;
+    background: rgba(238, 238, 238, 0.5);
 }
 .notify-num{
     position: relative;
@@ -29,6 +30,30 @@
 #sidebar-button1:hover, #sidebar-button2:hover{
     cursor: pointer;
 }
+.reduce-width, .feeds-wrapper, #sidebar-button1, #sidebar-button2, .sidebar-text{
+    transition: all 0.3s ease-out;
+}
+.active-bar:hover{
+    border-right: 3px solid #09174B;
+    border-radius: 2px;
+}
+.feeds-btn-bg{
+    background: #09174B;
+}
+.feeds-text{
+    color: #09174B !important;
+}
+.shape-radius{
+    border-radius: 15px;
+}
+
+.ubuntu-feeds-font{
+    font-family: 'Ubuntu', sans-serif;
+    color: #464646;
+}
+.change-border{
+    border:1px solid #09174B;;
+}
 
 @media  screen and (max-width: 991px) {
     .feeds-wrapper{
@@ -42,3 +67,4 @@
         margin-left:  130px;
     }
 }
+/* STYLES FOR FEEDS PAGES ENDS HERE */

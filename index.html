@@ -86,30 +86,25 @@
     </nav>
     <!-- NAVBAR -->
     <main class="feeds-wrapper">
-        <div class="pt-4 pb-3 d-flex flex-column-reverse flex-md-row gap-4 justify-content-between px-5 feeds-bg border sticky-top">
-            <form class="d-flex align-items-center">
-                <div class="dropdown d-none d-md-inline-block">
-                   <span class="dropdown-toggle rounded-pill bg-white py-2 px-4 latest-menu" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">Latest</span>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </div>
-                <input type="search" placeholder="Search a pool" class="form-control rounded-pill pe-5 ps-4 ms-md-5">
-            </form>
-            <div class="">
-                <span><img src="./images/Vector.png" alt="notification" width="25px"><img src="images/Group 23.png" alt="" class="notify-num"></span>
-                <span><img src="./images/Mask Group (1).png" alt="profile picture" width="30px" class="ms-3"></span>
-                <div class="dropdown d-inline-block">
-                    <span class="dropdown-toggle fw-bold" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                      Senibo
-                    </span>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+        <div class="pt-4 pb-1 row  px-5 sticky-top">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-9">
+                <div class="row justify-content-between">
+                    <div class="col-md-4"><input type="search" placeholder="Search a pool" class="form-control rounded-pill pe-5 ps-4"></div>
+                    <div class="col-md-4 mt-3 mt-md-0 col-lg-3">
+                        <span><img src="images/Vector.png" alt="notification" width="25px"><img src="images/Group 23.png" alt="" class="notify-num"></span>
+                        <span><img src="images/Mask Group (1).png" alt="profile picture" width="30px" class="ms-3"></span>
+                        <div class="dropdown d-inline-block">
+                            <span class="dropdown-toggle fw-bold" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Senibo
+                            </span>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -117,41 +112,38 @@
 
         <!-- PUT YOUR CONTENT BELOW -->
         <!-- Cards Starts  -->
-        <div class="row m-4">
-            <div class="col-md-4 col-lg-4 ms-sm-auto d-md-block">
-                <div class="my-3 mx-1">
-                    <div class="bg-primary p-4"></div>
-                    <div class="bg-light pb-5">
-                      <div  class= "mx-2"style= "width:50px; height:50px; position: relative; bottom: 30px;">
-                        <img src="./images/Mask Group (1).png" class="card-img-top " alt="...">
-                      </div>
-                      <h5 class=" mx-2 space ">Person Picken</h5>
-                      <h6 class=" mx-2 space2">@begifted</h6>
-                      <p class=" mx-2 space2">Followers: <span>350</span></p>
-                      <p class=" mx-2 space2">Following: <span>9.5K</span></p>
-                      <p class=" mx-2 space2">Region: <span>Portharcourt</span></p>
-                      <p class=" mx-2 space2">Number of answered polls: <span class="fw-bold">650</span></p>
-                      <p class=" mx-2 space2">Number of polls asked: <span class="fw-bold">487</span></p>
-                      <button type="button space2" class="btn btn-outline-primary btn-lg mx-2 rounded-pill px-5">Edit Profile</button>
-                    </div>  
-                </div>
-                <div class="my-3">
-                  <div class="bg-light pb-5">
-                    <h5 class=" mx-2 ">Polls Categories</h5>
-                    <div class="row g-1 py-5 mx-3">
-                        <button type="button" class="btn btn-outline-primary btn-lg  rounded-pill">Travel</button>
-                        <button type="button" class="btn btn-outline-primary btn-lg rounded-pill">Tech</button>
-                        <button type="button" class="btn btn-outline-primary btn-lg rounded-pill">Culture</button>
-                        <button type="button" class="btn btn-outline-primary btn-lg rounded-pill">Places</button>
-                        <button type="button" class="btn btn-outline-primary btn-lg rounded-pill">Web Development</button>
-                        <button type="button" class="btn btn-outline-primary btn-lg rounded-pill">Hollywood</button>
-                        <button type="button" class="btn btn-outline-primary btn-lg  rounded-pill">Covid - 19</button>
+        <div class="row mx-3 mt-1 mb-3 g-4">
+            <div class="col-xl-3">
+                <div class="row  align-items-baseline justify-content-evenly ms-xl-2">
+                    <div class="col-md-5 px-0 col-xl-12 feeds-bg border pb-3">
+                        <div class="feeds-btn-bg py-4"></div>
+                        <div class="px-2">
+                            <div  class= "mx-2"style= "width:50px; height:50px; position: relative; bottom: 30px;">
+                                <img src="./images/Mask Group (1).png" class="card-img-top " alt="...">
+                              </div>
+                            <p class="ubuntu-feeds-font lead pt-3 mb-2 space">Person Picken</p>
+                            <p class="ubuntu-feeds-font text-secondary mb-1">@begifted</p>
+                            <p class="mb-1 text-dark ubuntu-feeds-font">Followers:  350</p>
+                            <p class="mb-1 text-dark ubuntu-feeds-font">Following: 9.5k</p>
+                            <p class="mb-1 text-dark ubuntu-feeds-font">Region: Port harcourt</p>
+                            <p class="mb-1 text-dark ubuntu-feeds-font">Number of Answered polls <span class="fst-italic fw-bold">: 650</span></p>
+                            <p class="mb- text-dark ubuntu-feeds-font">Number of Polls Asked <span class="fst-italic fw-bold">: 487</span></p>
+                            <a href="#" class="d-block text-center text-decoration-none py-3 px-4 feeds-text change-border shape-radius">Edit Profile</a>
+                        </div>
+                   </div>
+                   <div class="col-md-5 col-xl-12 feeds-bg border p-3 mt-5 pb-5">
+                        <p class="ubuntu-feeds-font lead pt-1">Poll Categories</p>
+                        <a href="#" class="d-block text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Travel</a>
+                        <a href="#" class="d-block text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Tech</a>
+                        <a href="#" class="d-block text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Culture</a>
+                        <a href="#" class="d-block text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Place</a>
+                        <a href="#" class="d-block text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
+                        <a href="#" class="d-block text-center text-decoration-none py-1 px-4 border border-primary rounded-pill ubuntu-feeds-font text-primary">Covid-19</a>
                     </div>
-                  </div>  
-              </div>
-            </div>
+                </div>
+            </div> 
           <!-- Cards End -->
-          <div class="container my-3 col-md-4 ms-sm-auto col-lg-7  bg-light d-md-block">
+          <div class="col-xl-9 bg-light">
                 <h5 class="py-2 border-bottom">Notifications</h5>
                 <div class="row g-2 py-5 mx-3" id="note">
                     <div class=" d-flex align-items-start border border-primary py-1 rounded">

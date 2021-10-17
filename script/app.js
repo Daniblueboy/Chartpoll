@@ -112,7 +112,7 @@ let  notification = document.getElementById("note");
 let html = "";
 notificationItems.forEach(i => {
     html += `
-  <div class=" d-flex align-items-start border border-primary py-1 rounded">
+  <div class=" d-flex align-items-start border border-dark py-1 rounded">
   <div class="icon-square bg-light text-dark flex-shrink-0 me-3" id="note">
     <img src="${i.noticeImg}" alt="" width="35px">
   </div>
