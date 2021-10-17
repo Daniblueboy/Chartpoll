@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.feeds-bg{
+    background-color: #EEEEEE;
+}
+.notify-num{
+    position: relative;
+    right: 10px;
+    top: 8px;
+}
+
+.latest-menu{
+    outline-color: #ccc9c9;
+    outline-style: double;
+}
+.feeds-wrapper{
+    overflow: hidden;
+}
+
+.sidebar-hidden{
+    display: none;
+}
+.sidebar-show{
+    display: inline;
+}
+#sidebar-button1:hover, #sidebar-button2:hover{
+    cursor: pointer;
+}
+
+@media  screen and (max-width: 991px) {
+    .feeds-wrapper{
+        width: 100%  !important;
+        margin-left:  0 !important;
+    }
+}
+@media screen and (min-width:992px) {
+    .feeds-wrapper{
+        width: calc(100% - 130px);
+        margin-left:  130px;
+    }
+}

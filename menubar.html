@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chartpoll</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- SIDEBAR MOBILE -->
+    <nav class="navbar navbar-light bg-light d-lg-none feeds-bg border-bottom">
+        <div class="container-fluid">
+            <a href="#" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-dark text-decoration-none">
+                <img src="images/envelope.png" alt="Logo"  class="">
+                <span class="fw-bold text-secondary ps-2 fs-4">Chartpoll</span>
+                </a>
+            <!-- toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- nav links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="navbarNav">
+                <ul class="navbar-nav text-white ms-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="images/Vector (7).png" width="15px" alt="New Poll"><span class="text-secondary ps-4 pt-5">New Poll</span></a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="images/Group 20.png" width="15px" alt="All Feeds"> <span class="text-secondary ps-4 pt-5">All Feeds</span> </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/Vector (5).png" width="15px" alt="Technology"><span class="text-secondary ps-4 pt-5">Technology</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/Vector (6).png" width="15px" alt="Politics"><span class="text-secondary ps-4 pt-5">Politics</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/Vector (3).png" width="15px" alt="Movies"><span class="text-secondary ps-4 pt-5">Movies</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/Group 18.png" width="15px" alt="Business"><span class="text-secondary ps-4 pt-5">Business</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/Vector (4).png" width="15px" alt="Profile"><span class="text-secondary ps-4 pt-5">Profile</span></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR DESKTOP -->
+    <nav class="d-none d-lg-block feeds-bg fixed-top h-100 border-end reduce-width" style="width: 130px;">
+        <div class="d-flex flex-column flex-shrink-0 p-3 pt-4">
+            <span class="d-flex align-items-center mb-3 mb-lg-0 mt-2 me-lg-auto link-dark text-decoration-none">
+                <img src="images/envelope.png" alt="Logo"  class="ms-4 ">
+                <span class="fw-bold text-secondary ps-2 fs-4 sidebar-text sidebar-hidden">Chartpoll</span>
+                <span id="sidebar-button1" class="ms-4 sidebar-show"><img src="images/Vector (9).png" alt="open"></span>
+                <span id="sidebar-button2" class="ms-4 sidebar-hidden"><img src="images/Vector (8).png" alt="close"></span>
+            </span>
+            <ul class="nav flex-column mb-auto ps-3 pt-5 mt-3">
+                <li class="nav-item mb-3">
+                    <a href="#" class="nav-link active" aria-current="page"> <img src="images/Vector (7).png" alt="New Poll"><span class="text-secondary ps-4 pt-5 sidebar-text sidebar-hidden">New Poll</span></a>
+                </li>
+                <li class="mb-3">
+                    <a href="#" class="nav-link active" aria-current="page"><img src="images/Group 20.png" alt="All Feeds"> <span class="text-secondary ps-4 pt-5 sidebar-text sidebar-hidden">All Feeds</span> </a>
+                </li>
+                <li class="mb-3">
+                    <a href="#" class="nav-link active" aria-current="page"><img src="images/Vector (5).png" alt="Technology"><span class="text-secondary ps-4 pt-5 sidebar-text sidebar-hidden">Technology</span></a>
+                </li>
+                <li class="mb-3">
+                    <a href="#" class="nav-link active" aria-current="page"><img src="images/Vector (6).png" alt="Politics"><span class="text-secondary ps-4 pt-5 sidebar-text sidebar-hidden">Politics</span></a>
+                </li>
+                <li class="mb-3">
+                    <a href="#" class="nav-link active" aria-current="page"><img src="images/Vector (3).png" alt="Movies"><span class="text-secondary ps-4 pt-5 sidebar-text sidebar-hidden">Movies</span></a>
+                </li>
+                <li class="mb-3">
+                    <a href="#" class="nav-link active" aria-current="page"><img src="images/Group 18.png" alt="Business"><span class="text-secondary ps-4 pt-5 sidebar-text sidebar-hidden">Business</span></a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link active" aria-current="page"><img src="images/Vector (4).png" alt="Profile"><span class="text-secondary ps-4 pt-5 sidebar-text sidebar-hidden">Profile</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+    <main class="feeds-wrapper">
+        <div class="pt-4 pb-3 d-flex flex-column-reverse flex-md-row gap-4 justify-content-between px-5 feeds-bg border sticky-top">
+            <form class="d-flex align-items-center">
+                <div class="dropdown d-none d-md-inline-block">
+                   <span class="dropdown-toggle rounded-pill bg-white py-2 px-4 latest-menu" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">Latest</span>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <input type="search" placeholder="Search a pool" class="form-control rounded-pill pe-5 ps-4 ms-md-5">
+            </form>
+            <div class="">
+                <span><img src="images/Vector.png" alt="notification" width="25px"><img src="images/Group 23.png" alt="" class="notify-num"></span>
+                <span><img src="images/Mask Group (1).png" alt="profile picture" width="30px" class="ms-3"></span>
+                <div class="dropdown d-inline-block">
+                    <span class="dropdown-toggle fw-bold" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                      Senibo
+                    </span>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- NAVBAR ENDS HERE -->
+
+        <!-- PUT YOUR CONTENT BELOW -->
+        <div class="row m-4">
+            <div class="col-6">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere id cupiditate ea ut odit ab doloribus repellendus voluptatum illo nesciunt placeat dignissimos quia, officia quisquam est fuga exercitationem aperiam ipsam. Rem expedita asperiores sunt alias, impedit consequatur laboriosam magnam unde beatae mollitia accusamus nemo dolor temporibus fuga iste atque vero.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere id cupiditate ea ut odit ab doloribus repellendus voluptatum illo nesciunt placeat dignissimos quia, officia quisquam est fuga exercitationem aperiam ipsam. Rem expedita asperiores sunt alias, impedit consequatur laboriosam magnam unde beatae mollitia accusamus nemo dolor temporibus fuga iste atque vero.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere id cupiditate ea ut odit ab doloribus repellendus voluptatum illo nesciunt placeat dignissimos quia, officia quisquam est fuga exercitationem aperiam ipsam. Rem expedita asperiores sunt alias, impedit consequatur laboriosam magnam unde beatae mollitia accusamus nemo dolor temporibus fuga iste atque vero.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere id cupiditate ea ut odit ab doloribus repellendus voluptatum illo nesciunt placeat dignissimos quia, officia quisquam est fuga exercitationem aperiam ipsam. Rem expedita asperiores sunt alias, impedit consequatur laboriosam magnam unde beatae mollitia accusamus nemo dolor temporibus fuga iste atque vero.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere id cupiditate ea ut odit ab doloribus repellendus voluptatum illo nesciunt placeat dignissimos quia, officia quisquam est fuga exercitationem aperiam ipsam. Rem expedita asperiores sunt alias, impedit consequatur laboriosam magnam unde beatae mollitia accusamus nemo dolor temporibus fuga iste atque vero.
+                
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere id cupiditate ea ut odit ab doloribus repellendus voluptatum illo nesciunt placeat dignissimos quia, officia quisquam est fuga exercitationem aperiam ipsam. Rem expedita asperiores sunt alias, impedit consequatur laboriosam magnam unde beatae mollitia accusamus nemo dolor temporibus fuga iste atque vero.
+            </div>
+            <div class="col-6">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere id cupiditate ea ut odit ab doloribus repellendus voluptatum illo nesciunt placeat dignissimos quia, officia quisquam est fuga exercitationem aperiam ipsam. Rem expedita asperiores sunt alias, impedit consequatur laboriosam magnam unde beatae mollitia accusamus nemo dolor temporibus fuga iste atque vero.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere id cupiditate ea ut odit ab doloribus repellendus voluptatum illo nesciunt placeat dignissimos quia, officia quisquam est fuga exercitationem aperiam ipsam. Rem expedita asperiores sunt alias, impedit consequatur laboriosam magnam unde beatae mollitia accusamus nemo dolor temporibus fuga iste atque vero.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere id cupiditate ea ut odit ab doloribus repellendus voluptatum illo nesciunt placeat dignissimos quia, officia quisquam est fuga exercitationem aperiam ipsam. Rem expedita asperiores sunt alias, impedit consequatur laboriosam magnam unde beatae mollitia accusamus nemo dolor temporibus fuga iste atque vero.
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere id cupiditate ea ut odit ab doloribus repellendus voluptatum illo nesciunt placeat dignissimos quia, officia quisquam est fuga exercitationem aperiam ipsam. Rem expedita asperiores sunt alias, impedit consequatur laboriosam magnam unde beatae mollitia accusamus nemo dolor temporibus fuga iste atque vero.
+            </div>
+        </div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia fugit nobis quo optio aliquam? Odit quidem numquam omnis ipsum quasi esse, unde nemo deserunt, nostrum officiis ea ex fuga similique.
+    </main>
+    
+
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/script.js"></script>
+    
+</body>
+</html>
