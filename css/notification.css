@@ -20,11 +20,44 @@
 .userFontColor{
     color: #09174B;
 }
+.edit-margin{
+    margin-top: -45px;
+    
+}
+
+.test{
+    border: 2px solid red;
+    width: 20px;
+    height: 20px;
+}
 
 .proceed-btn{
     background-color: #09174B;
     margin-top: 250px;
-    margin-left: 150px !important;
+    width: 220px;
+}
+.pills{
+    width:120px;
+}
+.pillsbg{
+    background-color:#1E79A1;
+    ;  
+}
+
+.text-pill{
+    color:#1E79A1;
+
+}
+.pills-font{
+    font-size: 0.6rem;
+}
+
+.edit-padding{
+    padding: 60px 0 !important;
+}
+
+.shape-radius2{
+    border-radius: 8px;
 }
 
 /* .form-margin{
