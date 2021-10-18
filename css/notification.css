@@ -4,3 +4,23 @@
 .space2{
     margin-top: -5px !important;
 }
+
+.backg{
+    background: #1088bba6;
+}
+
+.marg{
+    margin: 0 -12px;
+}
+
+.marg2{
+    margin: 0 auto -45px;
+}
+
+.userFontColor{
+    color: #09174B;
+}
+
+/* .form-margin{
+    margin: 0 130px;
+} */
