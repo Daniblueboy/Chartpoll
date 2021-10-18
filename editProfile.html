@@ -146,7 +146,7 @@
           <!-- Cards End -->
 
           <!-- Profile Editing Page starts here -->
-          <div class="col-xl-8 col-lg-12 col-sm-2 col-md-10  bg-light ms-3">
+          <div class="col-xl-8 col-md-12 col-sm-2  bg-light ms-lg-3">
             <!-- profile image -->
               <div class="border border-dark backg p-5 marg d-flex ">
                   <div class="marg2 mt-5">
@@ -155,89 +155,71 @@
                   <p class="text-dark">Edit Profile</p>
               </div>
               <!-- form -->
-              <!-- <div class="container mt-5"> -->
-                <form class="form-margin align-center mt-5">
-                    <div class="row mb-3">
-                      <label for="fname" class="col-sm-3 col-form-label">First Name</label>
-                      <div class="col-sm-6 border-">
-                        <input type="text" class="form-control" id="fname" placeholder="Person">
+                <form class="form-margin row justify-content-center mt-5">
+                    <div class="col-lg-10">
+                      <div class="row mb-3">
+                        <label for="fname" class="col-sm-3 col-form-label">First Name</label>
+                        <div class="col-sm-6 border-">
+                          <input type="text" class="form-control" id="fname" placeholder="Person">
+                        </div>
                       </div>
+                      <div class="row mb-3">
+                        <label for="lname" class="col-sm-3 col-form-label">Last Name</label>
+                        <div class="col-sm-6">
+                          <input type="text" class="form-control" id="lname" placeholder="Picken">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="email" class="col-sm-3 col-form-label">Email</label>
+                        <div class="col-sm-6">
+                          <input type="email" class="form-control" id="email" placeholder="personpicken@Email.com">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="region" class="col-sm-3 col-form-label">Your Region</label>
+                        <div class="col-sm-6">
+                          <input type="" class="form-control" id="region" placeholder="Select Region">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="num" class="col-sm-3 col-form-label">Mobile Number</label>
+                        <div class="col-sm-3">
+                          <input type="tel" class="form-control mb-3" id="num" placeholder="Nigeria (+234)">
+                        </div>
+                        <div class="col-sm-3">
+                          <input type="tel" class="form-control" id="num2" placeholder="8105393816">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="gender" class="col-sm-3 col-form-label">Gender</label>
+                        <div class="col-sm-6">
+                          <input type="text" class="form-control" id="gender" placeholder="male">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="dob" class="col-sm-3 col-form-label">DOB</label>
+                        <div class="col-sm-2">
+                          <input type="text" class="form-control mb-3" id="dob" placeholder="7th">
+                        </div>
+                        <div class="col-sm-2">
+                          <input type="text" class="form-control mb-3" id="month" placeholder="Nov">
+                        </div>
+                        <div class="col-sm-2">
+                          <input type="text" class="form-control" id="year" placeholder="2020">
+                        </div>
+                      </div>
+  
+                      <a href="./index.html"><button type="submit" class="btn btn-lg mx-3 text-white proceed-btn col-sm-2 mx-5"> Proceed</button></a>
                     </div>
-                    <div class="row mb-3">
-                      <label for="lname" class="col-sm-3 col-form-label">Last Name</label>
-                      <div class="col-sm-6">
-                        <input type="text" class="form-control" id="lname" placeholder="Picken">
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <label for="email" class="col-sm-3 col-form-label">Email</label>
-                      <div class="col-sm-6">
-                        <input type="email" class="form-control" id="email" placeholder="personpicken@Email.com">
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <label for="region" class="col-sm-3 col-form-label">Your Region</label>
-                      <div class="col-sm-6">
-                        <input type="" class="form-control" id="region" placeholder="Select Region">
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <label for="num" class="col-sm-3 col-form-label">Mobile Number</label>
-                      <div class="col-sm-3">
-                        <input type="tel" class="form-control" id="num" placeholder="Nigeria (+234)">
-                      </div>
-                      <div class="col-sm-3">
-                        <input type="tel" class="form-control" id="num2" placeholder="8105393816">
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <label for="gender" class="col-sm-3 col-form-label">Gender</label>
-                      <div class="col-sm-6">
-                        <input type="text" class="form-control" id="gender" placeholder="male">
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <label for="dob" class="col-sm-3 col-form-label">DOB</label>
-                      <div class="col-sm-2">
-                        <input type="text" class="form-control" id="dob" placeholder="7th">
-                      </div>
-                      <div class="col-sm-2">
-                        <input type="text" class="form-control" id="month" placeholder="Nov">
-                      </div>
-                      <div class="col-sm-2">
-                        <input type="text" class="form-control" id="year" placeholder="2020">
-                      </div>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary col-sm-2 mx-5">Sign in</button>
                   </form>
                                 <!-- profile footer -->
 
-                <div class="bg-light border border-dark py-3 px-2 rounded-3 mt-5"> 
-                  <!-- <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a>
-                  <a href="#" class="text-center text-decoration-none py-1 px-4 border border-primary rounded-pill mb-2 ubuntu-feeds-font text-primary">Hollywood</a> -->
+                <div class="bg-light border border-dark py-3 px-0 rounded-3 mt-5"> 
+                  <button class="rounded-pill border border-primary text-center px-3 py-1 m-1">Hello Hello</button>
+                  <button class="rounded-pill border border-primary text-center px-3 py-1 m-1">Hello Hello</button>
+                  <button class="rounded-pill border border-primary text-center px-3 py-1 m-1">Hello Hello</button>
+                  <button class="rounded-pill border border-primary text-center px-3 py-1 m-1">Hello Hello</button>
+                  <button class="rounded-pill border border-primary text-center px-3 py-1 m-1">Hello Hello</button>
                   <button class="rounded-pill border border-primary text-center px-3 py-1 m-1">Hello Hello</button>
                   <button class="rounded-pill border border-primary text-center px-3 py-1 m-1">Hello Hello</button>
                   <button class="rounded-pill border border-primary text-center px-3 py-1 m-1">Hello Hello</button>
