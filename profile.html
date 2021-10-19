@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notification | Chartpoll</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/notification.css">
+    <link rel="stylesheet" href="./css/profile.css">
+
+    
+    <title>Chartpoll | user profile</title>
 </head>
 <body>
     <!-- SIDEBAR MOBILE -->
@@ -143,17 +146,85 @@
                 </div>
             </div> 
           <!-- Cards End -->
-          <div class="col-xl-8 bg-light">
-                <h5 class="pt-3 text-dark">Notifications</h5>
-                <div class="row g-2 pb-5 mx-3" id="note">
-                    <!-- notifications will be loaded from js file -->
-                </div>
-            </div>
-        </div>
-    </main>
+          <div class="col-xl-8 col-md-12 col-sm-2  bg-light ms-lg-1 ms-4">
+                <section class="user-que d-flex pt-5">
+                    <div class="user-holder pe-5">
+                        <img class="rounded-circle d-block m-auto" src="./profile-image/profile-user.png" alt="">
+                        <p class="pt-2 lh-sm">Person Picken</p>
+                    </div>
+                    <div class="w-75">
+                        <form action="" class="position-relative d-flex row">
+                            <div>
+                                <textarea class="form-control form-control-lg form-control-xm form-control-md form-control-sm border border-2 border-dark w-75 h-75" name="text" id="question" cols="30" rows="5"  aria-label="With textarea"></textarea>
+                            </div>
+                            <div class="justify-content-end">
+                                <button class="btn btn-lg mx-3 text-white profile-btn shape-radius2 col-sm-4 px-5 py-2 btn btn-lg">Add Question</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <section class="refer ">
+                 <div class="user-holder d-flex ">
+                     <div class="user-holder-img pe-3">
+                     <img class="rounded-circle" src="./profile-image/SOF_5770a-01 1.png" alt="">
+        
+                     </div>
+                     <div class="user-holder-text">
+                         <div>
+                            <p class="mb-0">Obi Smart <span>
+                                <a href="/" class="user-handle">@obismart</a>
+                                 </span><span class="time"> -3days</span>
+                            </p>
+                            <p class="">
+                                <a href="/">#technology</a>
+                            </p>
+                         </div>
+                         <div >
+                            <p>
+                                I want to generate a mockup text like “lorem ipsum” but I want to use someting local since that is what is currently on board. What Nigerian language do you think suits best?
+                            </p>
+                            <form action="" class="">
+                                <div>
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  Igbo
+                                </label>
+                                </div>
+                                <div>
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  Ijaw
+                                </label>
+                                </div>
+                                <div>
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                 Yoruba
+                                </label>
+                                </div>
+                                <div>
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                 Hausa
+                                </label>
+                                </div>
+                
+                            </form>
+                            <div class="pt-2 pb-3">
+                                <i class="far fa-thumbs-up pe-2">100</i>
+                                <i class="far fa-eye">320</i>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+              
+                </section>
+              </div>            
+          </div>
 
     <script src="./script/bootstrap.min.js"></script>
     <script src="./script/script.js"></script>
-    <script src="./script/app.js"></script>  
+    <script src="./script/app.js"></script> 
+    
 </body>
 </html>

@@ -128,4 +128,3 @@ notificationItems.forEach(i => {
   console.log(i)
   notification.innerHTML  = html
 });
-
