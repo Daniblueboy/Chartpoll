@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/notification.css">
     <link rel="stylesheet" href="./css/profile.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     
     <title>Chartpoll | user profile</title>
 </head>
@@ -131,7 +134,7 @@
                             <p class="mb-1 text-dark ubuntu-feeds-font">Region: Port harcourt</p>
                             <p class="mb-1 text-dark ubuntu-feeds-font">Number of Answered polls <span class="fst-italic fw-bold">: 650</span></p>
                             <p class="mb- text-dark ubuntu-feeds-font">Number of Polls Asked <span class="fst-italic fw-bold">: 487</span></p>
-                            <a href="editProfile.html" class="d-block text-center text-decoration-none py-3 px-4 feeds-text change-border shape-radius">Edit Profile</a>
+                            <a href="editProfile.html" class="d-block text-center text-decoration-none mx-3 py-3 px-4 feeds-text change-border shape-radius">Edit Profile</a>
                         </div>
                    </div>
                    <div class="col-md-5 col-xl-12 feeds-bg border p-3 mt-5 pb-5">
@@ -146,28 +149,43 @@
                 </div>
             </div> 
           <!-- Cards End -->
-          <div class="col-xl-8 col-md-12 col-sm-2  bg-light ms-lg-3">
-                <section class="user-que d-flex pt-5">
-                    <div class="user-holder pe-5">
+          <div class="col-xl-8 col-md-12 col-sm-2  bg-light ms-lg-3 user-holder">
+                <!-- <div class="d-flex justify-content-between pt-4 p-lg-4">
+                    <div class="user-holder">
                         <img class="rounded-circle d-block m-auto" src="./profile-image/profile-user.png" alt="">
-                        <p class="pt-2 lh-sm">Person Picken</p>
+                        <p class="pt-2 lh-sm fs-4">Person Picken</p>
+                    </div>
+                    <form class="g-3">
+                        <div class="pb-4">
+                            <textarea class="form-control form-control-lg form-control-xm form-control-md form-control-sm border border-2 border-dark" name="text" id="question" cols="30" rows="5"  aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="">
+                          <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+                        </div>
+                      </form>
+                </div> -->
+            
+                <section class="user-que d-flex justify-content-evenly pt-5 me-lg-5">
+                    <div class="user-holder pe-4">
+                        <img class="rounded-circle d-block m-auto" src="./profile-image/profile-user.png" alt="">
+                        <p class="pt-2 lh-sm fs-5 text-center">Person Picken</p>
                     </div>
                     <div class="w-75">
                         <form action="" class="row">
                             <div>
-                                <textarea class="form-control form-control-lg form-control-xm form-control-md form-control-sm border border-2 border-dark w-75 h-75" name="text" id="question" cols="30" rows="5"  aria-label="With textarea"></textarea>
+                                <textarea class="form-control form-control-lg form-control-xm form-control-md form-control-sm h-75 textarea-border" name="text" id="question" cols="30" rows="5"  aria-label="With textarea"></textarea>
                             </div>
-                            <div class="justify-content-end">
-                                <button class="btn text-white profile-btn shape-radius2  px-5 py-2 btn btn-lg but1">Add Question</button>
+                            <div class="text-end justify-content-end">
+                                <button class="btn text-white profile-btn shape-radius2 py-2 btn btn-sm but1">Add Question</button>
                             </div>
-                            <div class="justify-content-end">
-                                <button class="btn btn-lg mx-3 col-sm-2 text-white profile-btn shape-radius2 col-sm-4 px-5 py-2 btn btn-lg but2">Add Question</button>
+                            <div class="text-end justify-content-end">
+                                <button class="btn btn-lg mx-lg-3 col-sm-2 text-white profile-btn shape-radius2 col-sm-4 px-4 py-2 btn btn-lg but2">Add Question</button>
                             </div>
                         </form>
                     </div>
                 </section>
                 <section class="refer ">
-                 <div class="user-holder d-flex ">
+                 <div class="user-holder d-flex justfiy">
                      <div class="user-holder-img pe-3">
                      <img class="rounded-circle" src="./profile-image/SOF_5770a-01 1.png" alt="">
         
