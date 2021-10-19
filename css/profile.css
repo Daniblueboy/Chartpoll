@@ -6,7 +6,6 @@ main{
   border-radius: 16px;
   border: 1px solid #09174B;
   width: 220px;
-
 }
 
 .user-que{
@@ -18,8 +17,19 @@ a{
   color: #000;
 }
 
-/* @media screen and (min-width: 480px) {
-  .profile-btn{
-    left: 35.9%;
+
+
+@media screen and (max-width: 480px) {
+
+
+  .but2{
+  display: none;
   }
-} */
+}
+@media screen and (min-width: 480px) {
+
+.but1{
+  display:none
+}
+
+}
